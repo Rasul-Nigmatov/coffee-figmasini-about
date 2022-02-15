@@ -1,0 +1,34 @@
+.footer-top {
+    padding: 102px 165px;
+}
+
+.footer-top__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+
+    &::before {
+        position: absolute;
+        max-width: 1440px;
+        width: 100%;
+        height: 300px;
+        background-image: url("../../img/footer-bg.png");
+        top: -100px;
+        right: 0px;
+        z-index: -1;
+        content: '';
+    }
+}
+
+.footer-top__title {
+    max-width: 433px;
+    width: 100%;
+    height: 96px;
+    font-size: 48px;
+    line-height: 48px;
+    font-family: space-Mono, Courier, monospace;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}

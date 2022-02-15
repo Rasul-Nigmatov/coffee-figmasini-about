@@ -1,0 +1,106 @@
+.our-values__title {
+    text-align: center;
+    width: 540px;
+    height: 48px;
+    font-size: 48px;
+    line-height: 48px;
+    font-family: space-Mono, Courier, monospace;
+    font-weight: 700;
+    margin: 120px auto 45px;
+
+}
+
+.our-values__content {
+    position: relative;
+    margin-bottom: 120px;
+
+    &::before {
+        position: absolute;
+        max-width: 445px;
+        width: 100%;
+        height: 445px;
+        background-color: rgba(229, 236, 244, 1);
+        top: -200px;
+        left: -460px;
+        border-radius: 50%;
+        content: '';
+    }
+}
+
+.our-values__item {
+    position: relative;
+
+    &--tech ::before {
+        position: absolute;
+        max-width: 96px;
+        width: 100%;
+        height: 96px;
+        background-color: rgba(252, 183, 43, 1);
+        top: 265px;
+        left: 65px;
+        border-radius: 50%;
+        background-image: url("../../img/tech.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        content: '';
+    }
+    &--integrity ::before {
+        position: absolute;
+        max-width: 96px;
+        width: 100%;
+        height: 96px;
+        background-color: rgba(252, 183, 43, 1);
+        top: 265px;
+        left: 450px;
+        border-radius: 50%;
+        background-image: url("../../img/integrity.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        content: '';
+    }
+    &--community ::before {
+        position: absolute;
+        max-width: 96px;
+        width: 100%;
+        height: 96px;
+        background-color: rgba(252, 183, 43, 1);
+        top: 265px;
+        right: 175px;
+        border-radius: 50%;
+        background-image: url("../../img/community.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        content: '';
+    }
+}
+
+.our-values__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-values__img {
+    border-radius: 50%;
+}
+
+.our-values__text {
+    width: 350px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: space-Mono, Courier, monospace;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.our-values__discription {
+    width: 350px;
+    height: 75px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'LexendDeca', Arial, sans-serif;
+    font-weight: 700;
+    color: rgba(147, 156, 170, 0.8);
+    text-align: center;
+}

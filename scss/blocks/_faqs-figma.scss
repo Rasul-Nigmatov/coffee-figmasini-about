@@ -1,0 +1,203 @@
+.faqs-figma {
+    margin-bottom: 160px;
+}
+
+.faqs-figma__titule {
+    margin: 0px 450px 64px;
+    max-width: 540px;
+    width: 100%;
+    height: 48px;
+    font-size: 48px;
+    line-height: 48px;
+    font-family: space-Mono, Courier, monospace;
+    font-weight: 700;
+}
+
+.faqs-figma__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.faqs-figma__title {
+    max-width: 350px;
+    width: 100%;
+    height: 48px;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: space-Mono, Courier, monospace;
+    font-weight: 700;
+    display: inline;
+}
+
+.faqs-figma__app {
+    width: 385px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: space-Mono, Courier, monospace;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.faqs-figma__discrip {
+    width: 650px;
+    height: 75px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'LexendDeca', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.faqs-figma__works {
+    display: inline;
+    vertical-align: top;
+}
+
+.faqs-figma__list {
+    margin-left: auto;
+}
+
+.faqs-figma__item {
+    padding: 32px 40px;
+    margin-bottom: 16px;
+    background-color: rgba(242, 245, 249, 1);
+}
+
+.faqs-figma__item--ride {
+    width: 410px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.faqs-figma__app--regulations {
+    width: 500px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.faqs-figma__item--scoots {
+    width: 395px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.faqs-figma__content {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        max-width: 445px;
+        width: 100%;
+        height: 445px;
+        background-color: rgba(229, 236, 244, 1);
+        top: 361px;
+        left: -451px;
+        border-radius: 50%;
+        content: '';
+    }
+}
+
+.faqs-figma__item--download {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        max-width: 16px;
+        width: 100%;
+        height: 16px;
+        border-top: 3px solid #FCB72B;
+        border-right: 3px solid #FCB72B;
+        top: 40px;
+        left: 640px;
+        transform: rotate(-45deg);
+        content: '';
+    }
+}
+
+.faqs-figma__item--nearby {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        max-width: 16px;
+        width: 100%;
+        height: 16px;
+        border-top: 3px solid #FCB72B;
+        border-right: 3px solid #FCB72B;
+        top: 30px;
+        left: 640px;
+        transform: rotate(135deg);
+        content: '';
+    }
+}
+
+.faqs-figma__item--need {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        max-width: 16px;
+        width: 100%;
+        height: 16px;
+        border-top: 3px solid #FCB72B;
+        border-right: 3px solid #FCB72B;
+        top: 30px;
+        left: 640px;
+        transform: rotate(135deg);
+        content: '';
+    }
+}
+
+.faqs-figma__item--wear {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        max-width: 16px;
+        width: 100%;
+        height: 16px;
+        border-top: 3px solid #FCB72B;
+        border-right: 3px solid #FCB72B;
+        top: 40px;
+        left: 640px;
+        transform: rotate(-45deg);
+        content: '';
+    }
+}
+
+.faqs-figma__item--rules {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        max-width: 16px;
+        width: 100%;
+        height: 16px;
+        border-top: 3px solid #FCB72B;
+        border-right: 3px solid #FCB72B;
+        top: 30px;
+        left: 640px;
+        transform: rotate(135deg);
+        content: '';
+    }
+}
+
+.faqs-figma__item--damage {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        max-width: 16px;
+        width: 100%;
+        height: 16px;
+        border-top: 3px solid #FCB72B;
+        border-right: 3px solid #FCB72B;
+        top: 30px;
+        left: 640px;
+        transform: rotate(135deg);
+        content: '';
+    }
+}

@@ -1,0 +1,38 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.nav-site__list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 500px;
+}
+.nav-site__item {
+    margin-right: 32px;
+}
+
+.nav-site__link {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(147, 156, 170, 0.8);
+    font-family: space-Mono, Courier, monospace;
+    font-weight: 700;
+}
+
+.link__scotting {
+    padding: 14px 39px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: space-Mono, Courier, monospace;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(252, 183, 43, 1);
+}

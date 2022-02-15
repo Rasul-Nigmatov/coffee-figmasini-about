@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: 'LexendDeca', Arial, sans-serif;
+    font-weight: 400;
+}
+
+h1,h2,h3 {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    display: inline-block;
+}
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+img {
+    display: block;
+    align-items: center;
+}
+.visually-hedden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
